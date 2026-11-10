@@ -1,15 +1,15 @@
 baseURL = 'https://carlosjimenezmunoz.github.io/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'Carlos Michael Jimenez-Muñoz'
 theme = 'PaperMod'
 
 [params]
-  description = "Academic & Research Portfolio"
+  description = "PhD candidate in Quantum Chemistry at TU Darmstadt"
   author = "Carlos Michael Jimenez-Muñoz"
   disableThemeToggle = true
   defaultTheme = "light"
 
-[params.profileMode]
+  [params.profileMode]
     enabled = true
     title = "Carlos Michael Jimenez-Muñoz"
     subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
