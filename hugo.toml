@@ -1,16 +1,25 @@
 baseURL = 'https://CarlosMichaelJimenez.github.io/'
 locale = 'en-us'
-title = 'Carlos M. Jimenez-Munoz'
+title = 'Carlos Michael Jimenez-Munoz'
 theme = 'PaperMod'
 
 [params]
-  description = "Theoretical & Quantum Chemistry"
+  description = "Academic & Research Portfolio"
   author = "Carlos Michael Jimenez-Munoz"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = false
   disableThemeToggle = true
   defaultTheme = "light"
+
+[params.profileMode]
+    enabled = true
+    title = "Carlos Michael Jimenez-Munoz"
+    subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    buttons = [
+      { name = "Publications", url = "/publications/" },
+      { name = "CV", url = "/cv.pdf" }
+    ]
 
 [[params.socialIcons]]
   name = "email"
