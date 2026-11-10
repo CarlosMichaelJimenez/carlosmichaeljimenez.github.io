@@ -1,4 +1,30 @@
-baseURL = '//https://CarlosMichaelJimenez.github.io/'
+baseURL = 'https://CarlosMichaelJimenez.github.io/'
 locale = 'en-us'
-title = 'Carlos Jimenez-Munoz'
+title = 'Carlos M. Jimenez-Munoz'
 theme = 'PaperMod'
+
+[params]
+  description = "Theoretical & Quantum Chemistry"
+  author = "Carlos Michael Jimenez-Munoz"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  disableThemeToggle = true
+  defaultTheme = "light"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:carlos.jimenez@tu-darmstadt.de"
+
+[[params.socialIcons]]
+  name = "researchgate"
+  url = "https://www.researchgate.net/profile/Carlos-Jimenez-Munoz-2?ev=hdr_xprf"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/carlos-michael-jiménez-muñoz/"
+
+[[params.socialIcons]]
+  name = "bluesky"
+  url = "https://bsky.app/profile/michael11.bsky.social"
+
