@@ -13,11 +13,14 @@ theme = 'PaperMod'
     enabled = true
     title = "Carlos Michael Jimenez-Muñoz"
     subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
-    imageUrl = "static/photo.jpeg"
-    imageWidth = 120
-    imageHeight = 120
+    imageUrl = "photo.jpeg"
+    imageWidth = 300
+    imageHeight = 300
     buttons = [
       { name = "Publications", url = "/publications/" },
+      { name = "Honors & Awards", url = "/awards/" },
+      { name = "Talks & Presentations", url = "/talks/" },
+      { name = "Teaching & Mentorship", url = "/teaching/" },
       { name = "CV", url = "/cv.pdf" }
     ]
 
@@ -36,4 +39,3 @@ theme = 'PaperMod'
 [[params.socialIcons]]
   name = "bluesky"
   url = "https://bsky.app/profile/michael11.bsky.social"
-
