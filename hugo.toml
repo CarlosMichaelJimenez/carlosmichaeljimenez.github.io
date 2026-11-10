@@ -1,0 +1,4 @@
+baseURL = '//https://CarlosMichaelJimenez.github.io/'
+locale = 'en-us'
+title = 'Carlos Jimenez-Munoz'
+theme = 'PaperMod'
