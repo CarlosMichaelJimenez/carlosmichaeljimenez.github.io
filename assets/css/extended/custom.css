@@ -5,6 +5,11 @@
   --phthalo-green-alpha: rgba(18, 53, 36, 0.15);
 }
 
+/* Enable Smooth Scrolling for Page Shortcuts */
+html {
+  scroll-behavior: smooth;
+}
+
 /* --- Page Titles & Headings Accent --- */
 .post-title,
 .page-header h1,
@@ -25,6 +30,64 @@ article h3,
 .button:hover {
   background: var(--phthalo-green-light) !important;
   transform: translateY(-1px);
+}
+
+/* --- Page Jump Shortcuts Bar --- */
+.page-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0 30px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--tertiary);
+}
+
+.page-shortcuts a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--phthalo-green);
+  background: var(--phthalo-green-alpha);
+  padding: 5px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.page-shortcuts a:hover {
+  background: var(--phthalo-green);
+  color: #ffffff;
+}
+
+/* --- Language Proficiency Bars --- */
+.language-container {
+  margin: 25px 0;
+}
+
+.language-item {
+  margin-bottom: 16px;
+}
+
+.language-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.language-bar-bg {
+  width: 100%;
+  height: 8px;
+  background: var(--tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.language-bar-fill {
+  height: 100%;
+  background: var(--phthalo-green);
+  border-radius: 4px;
 }
 
 /* --- Vertical Timeline Styling --- */

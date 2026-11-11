@@ -2,6 +2,12 @@ baseURL = 'https://carlosmichaeljimenez.github.io/'
 defaultContentLanguage = 'en'
 theme = 'PaperMod'
 
+# Enable raw HTML rendering for custom divs (language bars, shortcuts)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   disableThemeToggle = true
   defaultTheme = "light"
@@ -9,7 +15,9 @@ theme = 'PaperMod'
   [params.label]
     text = "Home"
 
+[languages]
   [languages.en]
+    label = "English"
     languagelabel = "En"
     weight = 1
     title = "Carlos Michael Jimenez-Muñoz"
@@ -22,14 +30,16 @@ theme = 'PaperMod'
       imageWidth = 300
       imageHeight = 300
       buttons = [
-        { name = "Bio", url = "bio/" }, 
+        { name = "Bio", url = "/bio/" }, 
         { name = "Publications", url = "/publications/" },
-        { name = "Grants & Awards", url = "/awards/" },
+        { name = "Career & Credentials", url = "/awards/" },
         { name = "Talks & Presentations", url = "/talks/" },
         { name = "Teaching & Mentorship", url = "/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
-    [languages.es]
+
+  [languages.es]
+    label = "Español"
     languagelabel = "Es"
     weight = 2
     title = "Carlos Michael Jimenez-Muñoz"
@@ -43,14 +53,15 @@ theme = 'PaperMod'
       imageHeight = 300
       buttons = [
         { name = "Bio", url = "/es/bio/" }, 
-        { name = "Publicaciones", url = "/publications/" },
-        { name = "Reconocimientos y Becas", url = "/es/awards/" },
-        { name = "Conferencias y Presentaciones", url = "/talks/" },
-        { name = "Enseñanza", url = "/teaching/" },
+        { name = "Publicaciones", url = "/es/publications/" },
+        { name = "Mi Trayectoria", url = "/es/awards/" },
+        { name = "Conferencias y Presentaciones", url = "/es/talks/" },
+        { name = "Enseñanza", url = "/es/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
 
   [languages.de]
+    label = "Deutsch"
     languagelabel = "De"
     weight = 3
     title = "Carlos Michael Jimenez-Muñoz"
@@ -64,10 +75,10 @@ theme = 'PaperMod'
       imageHeight = 300
       buttons = [
         { name = "Über mich", url = "/de/bio/" },
-        { name = "Publikationen", url = "/publications/" },
-        { name = "Auszeichnungen & Stipendien", url = "/de/awards/" },
-        { name = "Vorträge & Präsentationen", url = "/talks/" },
-        { name = "Lehre & Mentoring", url = "/teaching/" },
+        { name = "Publikationen", url = "/de/publications/" },
+        { name = "Mein Werdegang", url = "/de/awards/" },
+        { name = "Vorträge & Präsentationen", url = "/de/talks/" },
+        { name = "Lehre & Mentoring", url = "/de/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
 
