@@ -1,0 +1,13 @@
+<div class="timeline-item">
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <span class="timeline-date">{{ .Get "date" }}</span>
+      <h3 class="timeline-title">{{ .Get "title" }}</h3>
+      <h4 class="timeline-subtitle">{{ .Get "organization" | markdownify }} — <span>{{ .Get "location" }}</span></h4>
+    </div>
+    <div class="timeline-body">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>

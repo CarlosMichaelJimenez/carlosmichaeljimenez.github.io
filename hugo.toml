@@ -1,28 +1,75 @@
 baseURL = 'https://carlosmichaeljimenez.github.io/'
-languageCode = 'en-us'
-title = 'Carlos Michael Jimenez-Muñoz'
+defaultContentLanguage = 'en'
 theme = 'PaperMod'
 
 [params]
-  description = "PhD candidate in Quantum Chemistry at TU Darmstadt"
-  author = "Carlos Michael Jimenez-Muñoz"
   disableThemeToggle = true
   defaultTheme = "light"
 
-  [params.profileMode]
-    enabled = true
+  [params.label]
+    text = "Home"
+
+  [languages.en]
+    languagelabel = "En"
+    weight = 1
     title = "Carlos Michael Jimenez-Muñoz"
-    subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
-    imageUrl = "photo.jpeg"
-    imageWidth = 300
-    imageHeight = 300
-    buttons = [
-      { name = "Publications", url = "/publications/" },
-      { name = "Honors & Awards", url = "/awards/" },
-      { name = "Talks & Presentations", url = "/talks/" },
-      { name = "Teaching & Mentorship", url = "/teaching/" },
-      { name = "CV", url = "/cv.pdf" }
-    ]
+    
+    [languages.en.params.profileMode]
+      enabled = true
+      title = "Carlos Michael Jimenez-Muñoz"
+      subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
+      imageUrl = "photo.jpeg"
+      imageWidth = 300
+      imageHeight = 300
+      buttons = [
+        { name = "Bio", url = "bio/" }, 
+        { name = "Publications", url = "/publications/" },
+        { name = "Grants & Awards", url = "/awards/" },
+        { name = "Talks & Presentations", url = "/talks/" },
+        { name = "Teaching & Mentorship", url = "/teaching/" },
+        { name = "CV", url = "/cv.pdf" }
+      ]
+    [languages.es]
+    languagelabel = "Es"
+    weight = 2
+    title = "Carlos Michael Jimenez-Muñoz"
+    
+    [languages.es.params.profileMode]
+      enabled = true
+      title = "Carlos Michael Jimenez-Muñoz"
+      subtitle = "Candidato Doctoral en Química Cuántica en TU Darmstadt"
+      imageUrl = "photo.jpeg"
+      imageWidth = 300
+      imageHeight = 300
+      buttons = [
+        { name = "Bio", url = "/es/bio/" }, 
+        { name = "Publicaciones", url = "/publications/" },
+        { name = "Reconocimientos y Becas", url = "/es/awards/" },
+        { name = "Conferencias y Presentaciones", url = "/talks/" },
+        { name = "Enseñanza", url = "/teaching/" },
+        { name = "CV", url = "/cv.pdf" }
+      ]
+
+  [languages.de]
+    languagelabel = "De"
+    weight = 3
+    title = "Carlos Michael Jimenez-Muñoz"
+    
+    [languages.de.params.profileMode]
+      enabled = true
+      title = "Carlos Michael Jimenez-Muñoz"
+      subtitle = "Doktorand in Quantenchemie an der TU Darmstadt"
+      imageUrl = "photo.jpeg"
+      imageWidth = 300
+      imageHeight = 300
+      buttons = [
+        { name = "Über mich", url = "/de/bio/" },
+        { name = "Publikationen", url = "/publications/" },
+        { name = "Auszeichnungen & Stipendien", url = "/de/awards/" },
+        { name = "Vorträge & Präsentationen", url = "/talks/" },
+        { name = "Lehre & Mentoring", url = "/teaching/" },
+        { name = "CV", url = "/cv.pdf" }
+      ]
 
 [[params.socialIcons]]
   name = "email"

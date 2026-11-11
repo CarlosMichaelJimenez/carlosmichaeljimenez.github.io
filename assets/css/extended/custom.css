@@ -1,0 +1,105 @@
+/* Custom Palette Variables */
+:root {
+  --phthalo-green: #123524;
+  --phthalo-green-light: #1b4d35;
+  --phthalo-green-alpha: rgba(18, 53, 36, 0.15);
+}
+
+/* --- Page Titles & Headings Accent --- */
+.post-title,
+.page-header h1,
+article h2,
+article h3,
+.post-content h3 {
+  color: var(--phthalo-green) !important;
+}
+
+/* --- Profile Buttons Accent Override --- */
+.button {
+  background: var(--phthalo-green) !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background: var(--phthalo-green-light) !important;
+  transform: translateY(-1px);
+}
+
+/* --- Vertical Timeline Styling --- */
+
+/* Vertical Line Container */
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  margin: 30px 0;
+  border-left: 2px solid var(--phthalo-green);
+}
+
+/* Individual Event Card */
+.timeline-item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+/* Dot on the Line */
+.timeline-marker {
+  position: absolute;
+  left: -35px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--phthalo-green);
+  border: 2px solid var(--theme);
+  box-shadow: 0 0 0 2px var(--phthalo-green-alpha);
+}
+
+/* Date Header */
+.timeline-date {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+/* Title & Organization */
+.timeline-title {
+  margin: 0 0 4px 0 !important;
+  font-size: 1.15rem !important;
+  font-weight: 700;
+  color: var(--phthalo-green) !important;
+}
+
+.timeline-subtitle {
+  margin: 0 0 10px 0 !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+.timeline-subtitle a {
+  color: var(--phthalo-green);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.timeline-subtitle span {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Body Content */
+.timeline-body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.timeline-body ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}

@@ -1,5 +1,5 @@
 ---
-title: "Honors & Awards"
+title: "Grants & Awards"
 layout: "page"
 ---
 
