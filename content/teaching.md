@@ -3,13 +3,8 @@ title: "Teaching & Mentorship"
 layout: "page"
 ---
 
-### Teaching Assistantships
-
-* **Quantum Chemistry Lab Course**, TU Darmstadt — Spring 2026
-* **Theoretical Chemistry Exercises**, TU Darmstadt — Fall 2025
-
----
-
-### Student Mentorship
-
-* **Master's Thesis Co-Supervision** (Student Name), *Project Title* — 2025–2026
+ {{< event date="May 2018 – July 2018" title="Teaching Assistant" organization="Universidad Yachay Tech" location="Urcuqui, Ecuador" >}}
+  * Laboratory instruction for undergraduate chemistry courses.
+  {{< /event >}}
+  
+Tdb...

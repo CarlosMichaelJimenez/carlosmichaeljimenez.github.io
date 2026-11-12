@@ -62,8 +62,4 @@ layout: "page"
   * Monitored biological sludge health, maintained laboratory instrumentation, and handled quality control data.
   {{< /event >}}
 
-  {{< event date="May 2018 – July 2018" title="Teaching Assistant" organization="Universidad Yachay Tech" location="Urcuqui, Ecuador" >}}
-  * Laboratory instruction for undergraduate chemistry courses.
-  {{< /event >}}
-
 {{< /timeline >}}

@@ -31,10 +31,8 @@ theme = 'PaperMod'
       imageHeight = 300
       buttons = [
         { name = "Bio", url = "/bio/" }, 
-        { name = "Research & Publications", url = "/publications/" },
-        { name = "Career & Credentials", url = "/awards/" },
-        { name = "Talks & Presentations", url = "/talks/" },
-        { name = "Teaching & Mentorship", url = "/teaching/" },
+        { name = "Research & Career", url = "/career/" },
+        { name = "Teaching Portfolio", url = "/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
 
@@ -53,10 +51,8 @@ theme = 'PaperMod'
       imageHeight = 300
       buttons = [
         { name = "Bio", url = "/es/bio/" }, 
-        { name = "Publicaciones", url = "/publications/" },
-        { name = "Trayectoria y Credenciales", url = "/es/awards/" },
-        { name = "Conferencias y Presentaciones", url = "/talks/" },
-        { name = "Enseñanza", url = "/es/teaching/" },
+        { name = "Investigación y Trayectoria", url = "/es/career/" },
+        { name = "Portafolio Docente", url = "/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
 
@@ -75,10 +71,8 @@ theme = 'PaperMod'
       imageHeight = 300
       buttons = [
         { name = "Über mich", url = "/de/bio/" },
-        { name = "Publikationen", url = "/publications/" },
-        { name = "Mein Werdegang", url = "/de/awards/" },
-        { name = "Vorträge & Präsentationen", url = "/talks/" },
-        { name = "Lehre & Mentoring", url = "/de/teaching/" },
+        { name = "Forschung & Werdegang", url = "/de/career/" },
+        { name = "Lehrportfolio", url = "/teaching/" },
         { name = "CV", url = "/cv.pdf" }
       ]
 
