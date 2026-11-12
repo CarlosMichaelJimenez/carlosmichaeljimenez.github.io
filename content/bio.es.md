@@ -30,7 +30,7 @@ layout: "page"
 {{< timeline >}}
 
   {{< event date="Octubre 2026 – Presente" title="Portavoz de Doctorandos y Postdocs" organization="[CRC 1487 - Iron, upgraded!](https://www.chemie.tu-darmstadt.de/iron-upgraded/)" location="Darmstadt, Alemania" >}}
-  * Representación de candidatos doctorales e investigadores postdoctorales dentro del Centro de Investigación Colaborativa (CRC) 1487 ("Iron, upgraded!").
+  * Representación de candidatos doctorales e investigadores postdoctorales.
   * Mediador de la comunicación entre investigadores en fase temprana y la dirección del proyecto, coordinación de intercambios científicos y apoyo al desarrollo profesional.
   {{< /event >}}
 
@@ -40,7 +40,7 @@ layout: "page"
   {{< /event >}}
 
   {{< event date="Junio 2024" title="Investigador Visitante" organization="Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA)" location="Grenoble, Francia" >}}
-  * Investigación computacional especializada sobre metodologías QM/MM-MD.
+  * Investigación computacional especializada en metodologías QM/MM-MD y propiedades redox.
   {{< /event >}}
 
   {{< event date="Marzo 2022 – Mayo 2022" title="Pasante de Investigación" organization="KU Leuven" location="Lovaina, Bélgica" >}}

@@ -12,7 +12,7 @@ layout: "page"
 
 ### Awards & Honors {#awards}
 
-- **Best Poster Award**
+- **Best Poster Award - Springer**
   * 46th International Conference on Coordination Chemistry (ICCC) — 2026
   * *Area:* Electronic and molecular structure – methods and modeling (MM)
 
@@ -22,11 +22,12 @@ layout: "page"
 *Project:* Quantum Chemical Analysis of the Electronic Structures, Spectroscopic Parameters and Reactivity of Transition Metal Complexes  
 *Facility:* Lichtenberg II  
 *Total Allocation:* 45 million Core-Hours (CPU) & 55,000 GPU-Hours — 2026–2029  
-*Role:* Lead Author of technical proposal & benchmarking
+*Role:* Lead Author of technical proposal & benchmarking  
 
-- **Supercomputing Resource Allocation (Co-Investigator)**  
+- **Supercomputing Resource Allocation (1 Year Allocation)**  
 *Project:* Quantum Chemical Analysis of Coordination Effects on the Electronic Structure and Spectroscopic Parameters of Iron Complexes  
-*Allocation:* 10 million Core-Hours & 12,500 GPU-Hours — 2025–2026
+*Allocation:* 10 million Core-Hours & 12,500 GPU-Hours — 2025–2026  
+*Role:* Lead Author of technical proposal & benchmarking  
 
 - **Travel Grant (CHITEL 2025)**  
 Attendance to the XLVIII International Congress of Theoretical Chemists of Latin Expression (CHITEL)  
@@ -37,7 +38,9 @@ Research stay at CEA, Grenoble with [Dr. Ragnar Björnsson](https://sites.google
 *Funded by:* [CRC 1487, Iron upgraded!](https://www.chemie.tu-darmstadt.de/iron-upgraded/) — 2024
 
 ### Specialized Technical Training {#training}
-
+- **Proficiency Training HPC 2026: Version Control with GIT** - [HKHLR](https://www.hkhlr.de/en/events/courses-and-tutorials)   
+- **Proficiency Training HPC 2026: HPC-Workflows** - [HKHLR](https://www.hkhlr.de/en/events/courses-and-tutorials)  
+- **Proficiency Training HCP 2026: Batch Job Scheduling** - [HKHLR](https://www.hkhlr.de/en/events/courses-and-tutorials)  
 - **Summer School 2023:** [Modern Wavefunction Methods](https://mwm.dcci.unipi.it)
 - **Summer School 2023:** [Electronic Structure and Spectroscopy of Transition Metals](https://summerschool.cec.mpg.de/en/home)
 
@@ -67,7 +70,6 @@ Research stay at CEA, Grenoble with [Dr. Ragnar Björnsson](https://sites.google
     </div>
     <div class="language-bar-bg"><div class="language-bar-fill" style="width: 55%;"></div></div>
   </div>
-</div>
 
   <div class="language-item">
     <div class="language-info">

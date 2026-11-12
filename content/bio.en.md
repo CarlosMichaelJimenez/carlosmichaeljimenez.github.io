@@ -40,7 +40,7 @@ layout: "page"
   {{< /event >}}
 
   {{< event date="June 2024" title="Visiting Researcher" organization="Commissariat a l'Energie Atomique et aux Energies Alternatives (CEA)" location="Grenoble, France" >}}
-  * Conducted focused computational research on QM/MM-MD methodologies.
+  * Conducted focused computational research on QM/MM-MD methodologies and redox properties.
   {{< /event >}}
 
   {{< event date="March 2022 – May 2022" title="Research Intern" organization="KU Leuven" location="Leuven, Belgium" >}}

@@ -17,14 +17,17 @@ Ecuador - 2024 *(Online)*
 
 ### Contributed Talks
 
-
+* *KPPS Retreat* - Germany (2026)
 * *7th Quantum (Bio-) Inorganic Chemistry Conference (QBIC VII)* - Germany (2025)  
 * *Congress of Theoretical Chemist of Latin Expression (CHITEL)* - Colombia (2025)
 * *CRC 1487 symposium "Understanding Iron & Friends"* - Germany (2024)
 * *Congress of Theoretical Chemist of Latin Expression (CHITEL)* - Belgium (2024)
+* *KPPS Retreat* - Germany (2023)
 
 ### Posters
-* *46th International Conference on Coordination Chemistry (ICCC)* - Denmark (2026) 
+* *46th International Conference on Coordination Chemistry (ICCC)* - Denmark (2026)
+* *KPPS Retreat* - Austria (2025)
+* *KPPS Retreat* - Germany (2024)
 * *Electronic Structure Principles and Applications (ESPA)* - Spain (2024)  
 * *Summer School: Electronic Structure and Spectroscopy of Transition Metal Complexes* - Germany (2023) 
 * *Summer School: Modern Wavefunction Methods* - Italy (2023)
