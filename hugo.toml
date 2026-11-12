@@ -8,6 +8,10 @@ theme = 'PaperMod'
     [markup.goldmark.renderer]
       unsafe = true
 
+[imaging]
+  resampleFilter = "Lanczos"
+  quality = 95
+  
 [params]
   disableThemeToggle = true
   defaultTheme = "light"
