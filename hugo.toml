@@ -11,7 +11,7 @@ theme = 'PaperMod'
 [imaging]
   resampleFilter = "Lanczos"
   quality = 95
-  
+
 [params]
   disableThemeToggle = true
   defaultTheme = "light"
@@ -31,6 +31,8 @@ theme = 'PaperMod'
       title = "Carlos Michael Jimenez-Muñoz"
       subtitle = "PhD candidate in Quantum Chemistry at TU Darmstadt"
       imageUrl = "photo.jpeg"
+      imageWidth = 600
+      imageHeight = 600
       buttons = [
         { name = "Bio", url = "/bio/" }, 
         { name = "Research & Career", url = "/career/" },
@@ -49,6 +51,8 @@ theme = 'PaperMod'
       title = "Carlos Michael Jimenez-Muñoz"
       subtitle = "Candidato Doctoral en Química Cuántica en TU Darmstadt"
       imageUrl = "photo.jpeg"
+      imageWidth = 600
+      imageHeight = 600
       buttons = [
         { name = "Bio", url = "/es/bio/" }, 
         { name = "Investigación y Trayectoria", url = "/es/career/" },
@@ -67,6 +71,8 @@ theme = 'PaperMod'
       title = "Carlos Michael Jimenez-Muñoz"
       subtitle = "Doktorand in Quantenchemie an der TU Darmstadt"
       imageUrl = "photo.jpeg"
+      imageWidth = 600
+      imageHeight = 600
       buttons = [
         { name = "Über mich", url = "/de/bio/" },
         { name = "Forschung & Werdegang", url = "/de/career/" },
