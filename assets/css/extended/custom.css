@@ -235,3 +235,9 @@ article h3,
   background: var(--phthalo-green);
   color: #ffffff !important;
 }
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
