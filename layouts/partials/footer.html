@@ -18,36 +18,7 @@
                 document.getElementById('gc-visits').innerText = data.count;
             }
         });
-        r.open('GET', 'https://carlosmichaeljimenez.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
-        r.send();
-    });
-</script>
-
-<noscript>
-    <style>
-        .top-link { display: none !important; }
-    </style>
-</noscript><footer class="footer">
-    {{- if not site.Params.disableFooter }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | relURL }}">{{ site.Title }}</a></span>
-        
-        <span style="margin-left: 12px; opacity: 0.75; font-size: 0.85em;">
-            &bull; Visits: <strong id="gc-visits" style="color: #123524;">—</strong>
-        </span>
-    {{- end }}
-</footer>
-
-<script data-goatcounter="https://carlosmichaeljimenez.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<script>
-    window.addEventListener('load', function() {
-        var r = new XMLHttpRequest();
-        r.addEventListener('load', function() {
-            if (this.status === 200) {
-                var data = JSON.parse(this.responseText);
-                document.getElementById('gc-visits').innerText = data.count;
-            }
-        });
-        r.open('GET', 'https://carlosmichaeljimenez.goatcounter.com/counter/' + 'TOTAL' + '.json');
+        r.open('GET', 'https://carlosmichaeljimenez.goatcounter.com/counter/TOTAL.json');
         r.send();
     });
 </script>
