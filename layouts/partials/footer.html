@@ -2,8 +2,9 @@
     {{- if not site.Params.disableFooter }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | relURL }}">{{ site.Title }}</a></span>
         
-        <div style="margin-top: 6px; display: inline-block;">
-            <img src="https://counter8.optistats.ovh/private/freecounterstat.php?c=5m8z392a8z5x5w9z8z9z5x5w9z8z9z5x" border="0" title="website hit counter" alt="website hit counter" style="vertical-align: middle;" />
+        <div style="margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.8rem; opacity: 0.8;">
+            <span>Visits:</span>
+            <img src="https://hits.seeyouatwell.com/count/embed.svg?url=https%3A%2F%2Fcarlosmichaeljimenez.github.io&icon=user&icon_color=%23FFFFFF&title=none&edge_flat=false&background_color=%23123524&count_color=%23FFFFFF" alt="Visitor Count" style="vertical-align: middle; height: 18px; border-radius: 3px;" />
         </div>
     {{- end }}
 </footer>
