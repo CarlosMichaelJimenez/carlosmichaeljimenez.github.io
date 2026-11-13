@@ -2,12 +2,56 @@
     {{- if not site.Params.disableFooter }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | relURL }}">{{ site.Title }}</a></span>
         
-        <div style="margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.8rem; opacity: 0.8;">
-            <span>Visits:</span>
-            <img src="https://hits.seeyouatwell.com/count/embed.svg?url=https%3A%2F%2Fcarlosmichaeljimenez.github.io&icon=user&icon_color=%23FFFFFF&title=none&edge_flat=false&background_color=%23123524&count_color=%23FFFFFF" alt="Visitor Count" style="vertical-align: middle; height: 18px; border-radius: 3px;" />
-        </div>
+        <span style="margin-left: 12px; opacity: 0.75; font-size: 0.85em;">
+            &bull; Visits: <strong id="gc-visits" style="color: #123524;">—</strong>
+        </span>
     {{- end }}
 </footer>
+
+<script data-goatcounter="https://carlosmichaeljimenez.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        var r = new XMLHttpRequest();
+        r.addEventListener('load', function() {
+            if (this.status === 200) {
+                var data = JSON.parse(this.responseText);
+                document.getElementById('gc-visits').innerText = data.count;
+            }
+        });
+        r.open('GET', 'https://carlosmichaeljimenez.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
+        r.send();
+    });
+</script>
+
+<noscript>
+    <style>
+        .top-link { display: none !important; }
+    </style>
+</noscript><footer class="footer">
+    {{- if not site.Params.disableFooter }}
+        <span>&copy; {{ now.Year }} <a href="{{ "" | relURL }}">{{ site.Title }}</a></span>
+        
+        <span style="margin-left: 12px; opacity: 0.75; font-size: 0.85em;">
+            &bull; Visits: <strong id="gc-visits" style="color: #123524;">—</strong>
+        </span>
+    {{- end }}
+</footer>
+
+<script data-goatcounter="https://carlosmichaeljimenez.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        var r = new XMLHttpRequest();
+        r.addEventListener('load', function() {
+            if (this.status === 200) {
+                var data = JSON.parse(this.responseText);
+                document.getElementById('gc-visits').innerText = data.count;
+            }
+        });
+        r.open('GET', 'https://carlosmichaeljimenez.goatcounter.com/counter/' + 'TOTAL' + '.json');
+        r.send();
+    });
+</script>
+
 <noscript>
     <style>
         .top-link { display: none !important; }
