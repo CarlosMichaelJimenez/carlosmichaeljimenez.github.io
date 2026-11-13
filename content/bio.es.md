@@ -62,8 +62,4 @@ layout: "page"
   * Monitoreo de la salud del lodo biológico, mantenimiento de equipos de laboratorio y gestión de datos de control de calidad.
   {{< /event >}}
 
-  {{< event date="Mayo 2018 – Julio 2018" title="Asistente de Docencia" organization="Universidad Yachay Tech" location="Urcuquí, Ecuador" >}}
-  * Instrucción de laboratorio para cursos de pregrado en Química.
-  {{< /event >}}
-
 {{< /timeline >}}

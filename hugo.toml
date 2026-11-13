@@ -85,8 +85,8 @@ theme = 'PaperMod'
   url = "mailto:carlos.jimenez@tu-darmstadt.de"
 
 [[params.socialIcons]]
-  name = "researchgate"
-  url = "https://www.researchgate.net/profile/Carlos-Jimenez-Munoz-2?ev=hdr_xprf"
+  name = "googlescholar"
+  url = "https://scholar.google.com/citations?hl=es&user=2tUXaJ0AAAAJ&view_op=list_works&gmla=AN_4Zu9l6jxnijaCNcFFCS3fUWPgOTBhJShCX9KvmqFLSnSlF2y-Yy60B-E5iHxWOOW4XS7kKodH_g"
 
 [[params.socialIcons]]
   name = "linkedin"

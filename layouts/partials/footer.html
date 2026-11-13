@@ -1,0 +1,14 @@
+<footer class="footer">
+    {{- if not site.Params.disableFooter }}
+        <span>&copy; {{ now.Year }} <a href="{{ "" | relURL }}">{{ site.Title }}</a></span>
+        
+        <div style="margin-top: 6px; display: inline-block;">
+            <img src="https://counter8.optistats.ovh/private/freecounterstat.php?c=5m8z392a8z5x5w9z8z9z5x5w9z8z9z5x" border="0" title="website hit counter" alt="website hit counter" style="vertical-align: middle;" />
+        </div>
+    {{- end }}
+</footer>
+<noscript>
+    <style>
+        .top-link { display: none !important; }
+    </style>
+</noscript>

@@ -62,8 +62,4 @@ layout: "page"
   * Überwachung der Biomasse, Wartung von Laborgeräten und Verwaltung von Qualitätskontrolldaten.
   {{< /event >}}
 
-  {{< event date="Mai 2018 – Juli 2018" title="Tutor / Studentische Hilfskraft" organization="Universidad Yachay Tech" location="Urcuquí, Ecuador" >}}
-  * Betreuung von Praktika im Rahmen von Chemie-Lehrveranstaltungen für Bachelorstudierende.
-  {{< /event >}}
-
 {{< /timeline >}}
