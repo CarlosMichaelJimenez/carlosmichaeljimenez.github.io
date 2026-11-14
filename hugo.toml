@@ -2,7 +2,7 @@ baseURL = 'https://carlosmichaeljimenez.github.io/'
 defaultContentLanguage = 'en'
 theme = 'PaperMod'
 
-# Enable raw HTML rendering for custom divs (language bars, shortcuts)
+# Enable raw HTML rendering for custom divs (language bars, shortcuts, teaching cards)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -10,7 +10,12 @@ theme = 'PaperMod'
 
 [imaging]
   resampleFilter = "Lanczos"
-  quality = 95
+  [imaging.jpeg]
+    quality = 95
+  [imaging.webp]
+    quality = 95
+  [imaging.avif]
+    quality = 95
 
 [params]
   disableThemeToggle = true
@@ -37,7 +42,7 @@ theme = 'PaperMod'
         { name = "Bio", url = "/bio/" }, 
         { name = "Research & Career", url = "/career/" },
         { name = "Teaching Portfolio", url = "/teaching/" },
-        { name = "CV", url = "/cv.pdf" }
+        { name = "CV", url = "/Carlos_Jimenez_CV.pdf"}
       ]
 
   [languages.es]
@@ -56,8 +61,8 @@ theme = 'PaperMod'
       buttons = [
         { name = "Bio", url = "/es/bio/" }, 
         { name = "Investigación y Trayectoria", url = "/es/career/" },
-        { name = "Portafolio Docente", url = "/teaching/" },
-        { name = "CV", url = "/cv.pdf" }
+        { name = "Portafolio Docente", url = "es/teaching/" },
+        { name = "CV", url = "/Carlos_Jimenez_CV.pdf"}
       ]
 
   [languages.de]
@@ -74,10 +79,10 @@ theme = 'PaperMod'
       imageWidth = 600
       imageHeight = 600
       buttons = [
-        { name = "Über mich", url = "/de/bio/" },
+        { name = "Über mich", url = "/de/bio/" }, 
         { name = "Forschung & Werdegang", url = "/de/career/" },
-        { name = "Lehrportfolio", url = "/teaching/" },
-        { name = "CV", url = "/cv.pdf" }
+        { name = "Lehrportfolio", url = "/de/teaching/" },
+        { name = "CV", url = "/Carlos_Jimenez_CV.pdf"}
       ]
 
 [[params.socialIcons]]

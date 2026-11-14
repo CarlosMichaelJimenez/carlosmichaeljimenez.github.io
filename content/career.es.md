@@ -18,17 +18,17 @@ Asimismo, tengo un gran interés en el modelado multiescala y en las simulacione
 
   <div class="hub-card">
     <div>
-      <h3>Trayectoria y Credenciales</h3>
-      <p>Reconocimientos, Recursos de Supercomputación (HPC), cursos e idiomas.</p>
-    </div>
-    <a href="/es/awards/" class="hub-link">Ver →</a>
-  </div>
-
-  <div class="hub-card">
-    <div>
       <h3>Conferencias y Presentaciones</h3>
       <p>Charlas invitadas, presentaciones y pósteres en congresos internacionales.</p>
     </div>
     <a href="/talks/" class="hub-link">Ver →</a>
+  </div>
+
+  <div class="hub-card">
+    <div>
+      <h3>Trayectoria y Credenciales</h3>
+      <p>Reconocimientos, Recursos de Supercomputación (HPC), cursos e idiomas.</p>
+    </div>
+    <a href="/es/awards/" class="hub-link">Ver →</a>
   </div>
 </div>

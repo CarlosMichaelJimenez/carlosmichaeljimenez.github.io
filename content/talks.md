@@ -26,6 +26,7 @@ Ecuador - 2024 *(Online)*
 
 ### Posters
 * *46th International Conference on Coordination Chemistry (ICCC)* - Denmark (2026)
+* *61st Symposium on Theoretical Chemistry (STC): Exploring Energy Landscapes - Germany (2025)*  
 * *KPPS Retreat* - Austria (2025)
 * *KPPS Retreat* - Germany (2024)
 * *Electronic Structure Principles and Applications (ESPA)* - Spain (2024)  

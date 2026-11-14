@@ -18,17 +18,17 @@ Darüber hinaus gilt mein besonderes Interesse der Multiskalen-Modellierung sowi
 
   <div class="hub-card">
     <div>
-      <h3>Werdegang & Qualifikationen</h3>
-      <p>Auszeichnungen, kompetitive HPC-Rechenzeitprojekte, Weiterbildungen und Sprachkenntnisse.</p>
-    </div>
-    <a href="/de/awards/" class="hub-link">Ansehen →</a>
-  </div>
-
-  <div class="hub-card">
-    <div>
       <h3>Vorträge & Präsentationen</h3>
       <p>Eingeladene Vorträge, Konferenzbeiträge und Posterpräsentationen.</p>
     </div>
     <a href="/talks/" class="hub-link">Ansehen →</a>
+  </div>
+  
+  <div class="hub-card">
+    <div>
+      <h3>Werdegang & Qualifikationen</h3>
+      <p>Auszeichnungen, kompetitive HPC-Rechenzeitprojekte, Weiterbildungen und Sprachkenntnisse.</p>
+    </div>
+    <a href="/de/awards/" class="hub-link">Ansehen →</a>
   </div>
 </div>
